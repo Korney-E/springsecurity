@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-signin" method="post" action="/auth/login">
+            <h2 class="form-signin-heading">Логин</h2>
+            <p>
+                <label for="username">Имя</label>
+                <input type="text" id="username" name="username" class="form-control" placeholder="Введите имя" required>
+            </p>
+            <p>
+                <label for="password">Пароль</label>
+                <input type="text" id="password" name="password" class="form-control" placeholder="Введите пароль" required>
+            </p>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+        </form>
+    </div>
+</body>
+</html>
