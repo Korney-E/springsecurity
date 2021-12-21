@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.*;
 
 @RestController
-@RequestMapping ("/api/v1/developers")
+    @RequestMapping ("/api/v1/developers")
 public class DeveloperRestControllerV1 {
 
     private List<Developer> DEELOPERS = Stream.of(

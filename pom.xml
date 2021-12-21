@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<mysql.connector.vervion>8.0.27</mysql.connector.vervion>
+		<jjwt.version>0.9.1</jjwt.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -50,6 +51,12 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.connector.vervion}</version>
 		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>${jjwt.version}</version>
+		</dependency>
+
 
 	</dependencies>
 
